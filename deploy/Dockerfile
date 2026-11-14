@@ -2,7 +2,7 @@
 # PROJECT is Controller, Agent, Sidecar or Injector (or SampleApp with PROJECT_PATH=samples/Plover.SampleApp). The result is a Native AOT binary on a minimal image that runs as a non-root user.
 # On OpenShift, which starts the container with an arbitrary user of group 0, nothing needs to be written outside the volumes it is given.
 
-FROM mcr.microsoft.com/dotnet/sdk:10.0 AS build
+FROM mcr.microsoft.com/dotnet/sdk:11.0 AS build
 ARG PROJECT
 ARG PROJECT_PATH=src/Plover.${PROJECT}
 ARG TARGETARCH
