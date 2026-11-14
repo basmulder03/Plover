@@ -10,7 +10,7 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "preact": "^11.0.2"
+    "preact": "^11.2.0"
   },
   "devDependencies": {
     "esbuild": "^0.28.2",
